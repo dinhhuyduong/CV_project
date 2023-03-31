@@ -1,0 +1,114 @@
+.container {
+    width: 70%;
+    margin: auto;
+    background-color: #0c4fb3;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.back{
+    float: left;
+    background-color: wheat;
+    border: 0px;
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #0c4fb3;
+}
+
+.back-button{
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 80px 12px 70px;
+    background: whitesmoke;
+    font-size: 1.5em;
+    list-style: none;
+}
+
+ul li:hover {
+    background: yellowgreen;
+}
+
+ul li.checked {
+    background: #888;
+    color: black;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: "";
+    position: absolute;
+    border-color: yellowgreen;
+    border-style: solid;
+    border-width: 0 5px 5px 0;
+    top: 12px;
+    left: 15px;
+    transform: rotate(45deg);
+    height: 20px;
+    width: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 12px 12px 12px;
+}
+
+.close:hover {
+    background-color: red;
+    color: wheat;
+}
+
+.header {
+    background-color: wheat;
+    padding: 2em 5% 2.5em 10%;
+    color: black;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input {
+    border: none;
+    width: 80%;
+    padding: 16px;
+    float: left;
+    font-size: 16px;
+}
+
+.add {
+    padding: 10px;
+    width: 10%;
+    background: grey;
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 26px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.add:hover {
+    background-color: wheat;
+}

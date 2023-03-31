@@ -1,0 +1,71 @@
+body {
+  background: #0c4fb3;
+}
+
+.app {
+  width: 100%;
+}
+
+.quotes-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 75vh;
+}
+
+.inner-quotes-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 70%;
+  text-align: center;
+  min-height: 350px;
+  padding: 0 2em;
+  border-radius: 100px;
+  background-color: wheat;
+  border: 10px solid yellowgreen;
+  box-shadow: 10px 10px 40px 20px black;
+}
+
+.inner-quotes-container p {
+  font-size: 1.5em;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 50px;
+  font-family: 'Times';
+}
+
+.inner-quotes-container h4 {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.quote-btn {
+  padding-top: 3em;
+}
+
+#generate{
+  padding: 10px;
+  color: wheat;
+  background-color: #0c4fb3;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: small;
+}
+
+.back{
+	background-color: transparent;
+}
+
+.back-button{
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: large;
+	font-weight: bold;
+	color: wheat;
+}

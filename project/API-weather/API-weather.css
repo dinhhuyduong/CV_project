@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: 'HACK', sans-serif;
+  background: #0c4fb3;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  font-size: 75%;
+}
+
+.card {
+  background: rgba( 0, 0, 0, 0.7 );
+  backdrop-filter: blur(100px);
+  border-radius: 10px;
+  border: 1px solid yellowgreen;
+  color: wheat;
+  padding: 1em;
+  border-radius: 50px;
+  width: 20%;
+  margin: 2.5em;
+  overflow: hidden;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50px;
+  border: none;
+  height: 40px;
+  width: 40px;
+  outline: none;
+  background: rgba( 0, 0, 0, 0.9 );
+  color: wheat;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+  border: 1px solid yellowgreen;
+  padding: 0.5em 1em;
+  border-radius: 50px;
+  background: rgba( 0, 0, 0, 0.5 );
+  color: wheat;
+  font-family: inherit;
+  font-size: 125%;
+  width: 175px;
+}
+
+button:hover {
+  background: yellowgreen;
+}
+
+.city{
+  text-align: center;
+}
+
+h1.temp {
+  margin: 0;
+  margin-bottom: 0.4em;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  text-transform: uppercase;
+  margin-left: 5%;
+}
+
+.wind, .humidity{
+  margin-left: 5%;
+}
+
+.wind{
+  padding-bottom: 5%;
+}
+
+a {
+  margin-top: 7%;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back{
+	background-color: transparent;
+  margin: 0.5em;
+  border-radius: 50px;
+  border: none;
+  height: 50px;
+  width: 50px;
+}
+
+.back-button{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: xx-small;
+	color: wheat;
+}

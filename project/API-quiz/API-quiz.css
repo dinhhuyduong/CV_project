@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'HACK', cursive;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    min-height: 50vh;
+    font-family: inherit;
+    color: black;
+    background: #0c4fb3;
+}
+
+.wrapper{
+    background: wheat;
+    padding: 1em 3.5em 1em;
+    width: 40%;
+    height: 75%;
+    border-radius: 50px;
+    margin-top: -10px;
+    box-shadow: 10px 10px 60px 20px rgba(0, 0, 0, 0.5);
+}
+
+.quiz-title{
+    text-align: center;
+    font-size: 2em;
+}
+
+.quiz-score{
+    font-size: 1.5em;
+    border: 3px solid black;
+    font-weight: bold;
+    width: 110px;
+    height: 40px;
+    margin: .5rem auto 1rem auto;
+    color: rebeccapurple;
+}
+
+.quiz-question{
+    font-size: 1.25em;
+    text-align: center;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+.quiz-question .category{
+    font-size: 0.75em;
+    background-color: rebeccapurple;
+    color: wheat;
+    padding: 0.1em 0.1em;
+    border-radius: 0.5em;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+.quiz-options{
+    list-style-type: none;
+    margin: auto;
+}
+
+.quiz-options li{
+    border-radius: 50px;
+    font-weight: bold;
+    margin: 1em auto;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border: 3px solid yellowgreen;
+    background-color: rebeccapurple;
+    color: wheat;
+    transition: all 0.3s ease-in-out;
+}
+.quiz-options li:hover{
+    background-color: yellowgreen;
+    color: black;
+    border-color: yellowgreen;
+}
+
+.quiz-options li:active{
+    transform: scale(0.95);
+}
+/*  */
+.selected{
+    background-color: #FFCC00!important;
+    color: black!important;
+    box-shadow: 0 4px 10px 0 grey;
+}
+.quiz-foot button{
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em 1em;    
+    margin: 0 auto 0 auto;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: block;
+    background-color: white;
+    color: black;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.quiz-foot button:hover{
+    background-color: yellowgreen;
+}
+
+.quiz-foot button:active{
+    transform: scale(0.95);
+}
+
+#play-again{
+    display: none;
+}
+
+#result{
+    padding: 0.5rem 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#result i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: yellowgreen;
+    color: white;
+}
+
+
+.back{
+    background-color: transparent;
+    margin-bottom: 950%;
+    margin-top: 5px;
+    transform: translateX(-57em);
+}
+
+.back-button{
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: large;
+	font-weight: bold;
+	color: wheat;
+}

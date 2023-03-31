@@ -1,0 +1,93 @@
+body {
+	background-color: whitesmoke;
+	font-family: "HACK", Sans-serif;
+	font-size: 50%;
+	margin: auto;
+}
+
+#container {
+	max-width: 600px;
+	margin: auto;
+	padding-top: 1.5em;
+
+}
+.square {
+	width: 30%;
+	background-color: gray;
+	padding-bottom: 30%;
+	float: right;
+	margin: 1%;
+} 
+
+h1 {
+	color: black;
+	font-size: 3.5em;
+	text-align: center;
+	text-transform: uppercase;
+	margin: auto;
+	padding: 25px;
+}
+
+#color-display {
+	display: block;
+	font-size: 4em;
+}
+
+#stripe {
+	background: wheat;
+	height: 30px;
+	text-align: center;
+	color: wheat;
+}
+
+#message {
+	text-transform: uppercase;
+	color: #0c4fb3;
+	font-size: 1.5em;
+	display: inline-block;
+	width: 50%;
+}
+
+button {
+	color: #0c4fb3;
+	font-family: "HACK", Sans-serif;
+	font-size: 1.5em;
+	background-color: wheat;
+	height: 100%;
+	letter-spacing: 0.2em;
+}
+
+button:hover {
+	background-color: #0c4fb3;
+	color: wheat;
+}
+
+.selected {
+	background-color: #0c4fb3;
+	color: wheat;
+}
+
+.square {
+	border-radius: 10%;
+}
+
+* {
+	border: 0px;
+}
+
+.back{
+	background-color: wheat;
+}
+
+.back-button{
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: large;
+	position: relative;
+	font-weight: bold;
+	color: #000;;
+}
+
+
+

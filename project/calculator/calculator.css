@@ -1,0 +1,53 @@
+.container{
+  background-color: #0c4fb3;
+}
+
+.calculator {
+    padding: 7.5px;
+    border-radius: 0.1em;
+    height: 450px;
+    width: 400px;
+    margin: auto;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    background-color: black;
+}
+
+.display-box {
+    font-family: "HACK", Sans-serif;
+    background-color: #EEEEEE;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 97%;
+    height: 65%;
+    font-size: 25px;
+}
+
+input[type=button] {
+    font-family: "HACK", Sans-serif;
+    background-color: gray;
+    color: white;
+    border: solid wheat 0.5px;
+    width: 95%;
+    border-radius: 15px;
+    height: 70%;
+}
+
+.back-button{
+    position: relative;
+    margin: 1em;
+    padding-left: 46%;
+}
+
+.back {
+    background-color: #0c4fb3;
+}
+
+#back{
+    text-decoration: none;
+    color: wheat;
+    text-transform: uppercase;
+    font-size: medium;
+    font-weight: bold;
+}

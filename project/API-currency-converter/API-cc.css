@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'HACK', cursive;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 85vh;
+  background: #0c4fb3;
+}
+::selection{
+  color: wheat;
+  background: #0c4fb3;
+}
+.wrapper{
+  width: 400px;
+  border-radius: 10px;
+  background: whitesmoke;
+  padding: 25px 20px 5px;
+  box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper header{
+  font-size: 1.75em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.wrapper form{
+  margin: 20px auto 20px auto;
+}
+form :where(input, select, button){
+  width: 100%;
+  outline: none;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+form p{
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+form input{
+  height: 50px;
+  font-size: 35px;
+  padding: 0px 25px;
+  border: 1px solid grey;
+}
+
+form input:focus{
+  padding: 0 25px;
+  border: 2px solid yellowgreen;
+}
+
+form .drop-list{
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drop-list .select-box{
+  display: flex;
+  width: 8em;
+  height: 45px;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: center;
+  border: 1px solid #999;
+}
+
+.drop-list .select-box:hover{
+  background-color: yellowgreen;
+}
+
+.select-box img{
+  max-width: 150px;
+}
+
+.select-box select{
+  width: auto;
+  font-size: 1em;
+  background: none;
+  margin: 0 -5px 0 5px;
+}
+
+.drop-list .icon{
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+form .exchange-rate{
+  font-size: 25px;
+  margin: 50px 0 30px;
+  text-align: center;
+}
+
+form button{
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  background: #0c4fb3;
+  transition: 0.1s ease;
+}
+
+form button:hover{
+  background: yellowgreen;
+}
+
+.back{
+	background-color: transparent;
+  margin-top: 85vh;
+  transform: translateX(-14em);
+}
+
+.back-button{
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: large;
+	font-weight: bold;
+	color: wheat;
+}

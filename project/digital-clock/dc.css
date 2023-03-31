@@ -1,0 +1,28 @@
+body {
+    background: #0c4fb3;
+}
+
+#Clock {
+    font-size: 5.5em;
+    font-family: "TAHOMA", Sans-serif;
+    color: black;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    letter-spacing: 0.1em;
+}
+
+.back-button{
+    margin: auto;
+    position: absolute;
+    top: 85%;
+    left: 47%;
+    font-weight: bold;
+    background-color: #0c4fb3;
+}
+
+.back {
+    color: wheat;
+    text-decoration: none;
+}
