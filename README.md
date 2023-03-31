@@ -1,0 +1,3 @@
+# CV_project
+This is my small project self-taught about html, css javascript and bootstrap.
+All sources are free, found on youtube, facebook,...
