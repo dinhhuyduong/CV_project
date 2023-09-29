@@ -206,7 +206,7 @@ a {
   font-weight: bold;
   /* padding: 0;
   white-space: nowrap; */
-  transition: 1s;
+  transition: 0.1s;
   letter-spacing: 0.1em;
   position: relative;
   text-transform: uppercase;
